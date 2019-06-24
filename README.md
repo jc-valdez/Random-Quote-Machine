@@ -1,87 +1,46 @@
-# Project Title
+# Random Quote Machine
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Random Quote Machine is a Free Code Camp project. It makes an AJAX call to a random quote generator API and displays the response on the page. The app displays a random quote, two buttons(new quote and tweet quote), and a simple gradient background.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Run the tests by clicking the green menu button on the top left of the screen and selecting "Random Quote Machine", then click "Run Tests".
 
-### Break down into end to end tests
+### User Stories
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+User Stories from FCC(freeCodeCamp) Front End Libraries Project
 
 ```
-Give an example
+User Story #1: I can see a wrapper element with a corresponding id="quote-box".
+User Story #2: Within #quote-box, I can see an element with a corresponding id="text".
+User Story #3: Within #quote-box, I can see an element with a corresponding id="author".
+User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote".
+User Story #5: Within #quote-box, I can see a clickable element with a corresponding id="tweet-quote".
+User Story #6: On first load, my quote machine displays a random quote in the element with id="text".
+User Story #7: On first load, my quote machine displays the random quote's author in the element with id="author".
+User Story #8: When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.
+User Story #9: My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.
+User Story #10: I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in it's href attribute to tweet the current quote.
+User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 ```
 
-## Deployment
+#### Built With
 
-Add additional notes about how to deploy this on a live system
+* [Visual Studio Code](https://code.visualstudio.com/) - The code editor used
+* [Camperbot](https://gist.github.com/camperbot) - API Request
 
-## Built With
+##### Authors
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* **Justin Valdez** - *Initial work* - [jc-valdez](https://github.com/jc-valdez)
+* **Gabriel Nunes** - *Initial JavaScript* 
+* **Todd Chaffee** - *Modified to use Camper gist* 
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
+###### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+####### Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Gabriel Nunes
+* Todd Chaffee
+* Stephen Mayeux
