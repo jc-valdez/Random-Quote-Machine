@@ -39,7 +39,7 @@ User Story #11: The #quote-box wrapper element should be horizontally centered. 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-####### Acknowledgments
+###### Acknowledgments
 
 * Gabriel Nunes
 * Todd Chaffee
